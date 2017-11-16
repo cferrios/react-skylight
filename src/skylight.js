@@ -41,7 +41,7 @@ class SkyLight extends React.Component {
       return;
     }
 
-    if (!e.classList.contains('skylight-wrapper')) {
+    if (!e.target.classList.contains('skylight-wrapper')) {
       return;
     }
 

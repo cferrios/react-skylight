@@ -69,7 +69,7 @@ class SkyLight extends React.Component {
     }
 
     return (
-        <section className="skylight-wrapper" id={this.props.id} onClick={() => this.onOverlayClicked()}>
+        <section className="skylight-wrapper" id={this.props.id} onClick={(e) => this.onOverlayClicked(e)}>
             <div style={dialogStyles}>
               <a onClick={() => this.hide()} role="button" style={closeButtonStyle} >&times;</a>
               <h2 style={titleStyle}>{this.props.title}</h2>
